@@ -1,0 +1,114 @@
+body{
+    background: #F5F5F5;
+}
+
+#navy {
+    background-color: #76BEBE;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 30px;
+    color: #F5F5F5;
+}
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #CF509C;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 0;
+}
+
+section {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+label {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+input {
+    border: none;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+button{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    background: #76BEBE;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+table {
+    position: top;
+    margin-top: 25px;
+    width: 70%;
+    height: 31px;
+    background: #3E3D3D;
+    border: 1px solid #767373;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.table {box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.57);
+    border: 1px solid #767373;
+}
